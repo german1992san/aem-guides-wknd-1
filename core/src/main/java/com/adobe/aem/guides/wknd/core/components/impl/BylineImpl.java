@@ -63,7 +63,7 @@ public class BylineImpl implements Byline {
 
     @Override
     public String getName() {
-        return name;
+        return name + " Java update!";
     }
 
     @Override
