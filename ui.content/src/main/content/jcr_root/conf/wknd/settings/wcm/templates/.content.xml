@@ -5,4 +5,6 @@
     <rep:policy/>
     <article-page-template/>
     <landing-page-template/>
+    <article-page-german-template/>
+    <landing-page-german-template/>
 </jcr:root>

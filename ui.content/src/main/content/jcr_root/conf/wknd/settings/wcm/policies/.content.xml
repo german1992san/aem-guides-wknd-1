@@ -9,12 +9,12 @@
                 <responsivegrid jcr:primaryType="nt:unstructured">
                     <content-default
                         jcr:description="Policy for editable layout containers"
-                        jcr:lastModified="{Date}2019-03-19T13:18:46.128-07:00"
+                        jcr:lastModified="{Date}2019-10-04T12:59:06.896-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Site Default"
                         sling:resourceType="wcm/core/components/policy/policy"
-                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,/apps/wknd/components/form/container,group:WKND.Structure]"
+                        components="[/libs/wcm/foundation/components/responsivegrid,group:WKND.Content,/apps/wknd/components/form/container,group:WKND.Structure,/apps/wknd/components/structure/header]"
                         policyResourceType="wcm/foundation/components/responsivegrid">
                         <cq:authoring jcr:primaryType="nt:unstructured">
                             <assetToComponentMapping jcr:primaryType="nt:unstructured">
@@ -84,6 +84,25 @@
                         components="[group:WKND.Content,group:WKND.Structure]">
                         <jcr:content jcr:primaryType="nt:unstructured"/>
                     </policy_4792148308882>
+                    <policy_1171304376208300
+                        jcr:lastModified="{Date}2019-10-04T13:16:19.686-05:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        jcr:title="WKND content two"
+                        sling:resourceType="wcm/core/components/policy/policy"
+                        components="[/libs/wcm/foundation/components/responsivegrid,/apps/wknd/components/content/breadcrumb,/apps/wknd/components/content/image,/apps/wknd/components/content/list,/apps/wknd/components/content/text,/apps/wknd/components/content/title]">
+                        <jcr:content jcr:primaryType="nt:unstructured"/>
+                        <cq:authoring jcr:primaryType="nt:unstructured">
+                            <assetToComponentMapping jcr:primaryType="nt:unstructured">
+                                <mapping_1570212586951
+                                    jcr:primaryType="nt:unstructured"
+                                    assetGroup="media"
+                                    assetMimetype="image/*"
+                                    droptarget="image"
+                                    resourceType="wknd/components/content/image"/>
+                            </assetToComponentMapping>
+                        </cq:authoring>
+                    </policy_1171304376208300>
                 </responsivegrid>
             </components>
         </foundation>
@@ -128,7 +147,7 @@
                 </title>
                 <text jcr:primaryType="nt:unstructured">
                     <policy_1554340265233
-                        jcr:lastModified="{Date}2019-10-03T13:16:57.457-05:00"
+                        jcr:lastModified="{Date}2019-10-03T13:30:56.638-05:00"
                         jcr:lastModifiedBy="admin"
                         jcr:primaryType="nt:unstructured"
                         jcr:title="WKND Text - Article"
